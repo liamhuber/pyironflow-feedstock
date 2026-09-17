@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyironflow
-  version: 0.0.24
+  version: 0.1.0
   python_min: '3.11'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyironflow-${{ version }}.tar.gz
-  sha256: 5b961d0b80e7907d5f139d3a541c89b596870e121c51db5fd2af5433e6a853de
+  sha256: d1f4b1cab1e178bc2cf95a12b349e4556ad853a6af23d952bb43c1f03a9ba93d
 
 build:
   number: 0
