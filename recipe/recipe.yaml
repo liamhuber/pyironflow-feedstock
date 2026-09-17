@@ -38,9 +38,9 @@ requirements:
     - python >=${{ python_min }},<3.13
     - anywidget ==0.9.18
     - ipytree ==0.2.2
-    - ipython >=8.37.0,<8.38.0
+    - ipython >=9.16.1,<9.17.0
     - ipywidgets >=8.1.8,<8.2.0
-    - pyiron_workflow ==0.17.0
+    - pyiron_workflow ==0.20.0
     - traitlets >=5.14.3,<5.15.0
 tests:
   - python:
